@@ -1,0 +1,20 @@
+{
+    "name": "raveren/mysql",
+    "description": "Minimal and useful MYSQL/MariaDb class used for more than a decade!",
+    "keywords": ["php", "mysql", "mariadb", "PDO"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rokas Šleinius",
+            "homepage": "https://github.com/raveren"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "files": ["mysql.php"]
+    }
+}
