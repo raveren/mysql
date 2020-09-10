@@ -15,13 +15,14 @@ class mysql
 {
     const IGNORE  = 1;
     const REPLACE = 2;
-    protected static $_connected = false;
 
     const NO_BOUND_VALUES = "\x00no-param\x00";
+
 
     /** @var PDO */
     protected static $_pdo;
     protected static $_addRowsContainer = array();
+    protected static $_connected = false;
     protected static $_inTransaction    = false;
     protected static $_config;
     protected static $_configCallable;
